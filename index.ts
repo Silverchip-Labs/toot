@@ -1,3 +1,4 @@
-export const coolMap = <T> (arr: T[], fn: (item: T) => T) => {
+export const coolMap = <TInput, TOutput> (arr: TInput[], fn: (item: TInput) => TOutput): TOutput[] => {
     // todo
+    return [];
 }
